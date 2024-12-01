@@ -1,0 +1,48 @@
+name: citytaxi1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  google_maps_flutter: ^2.6.1       # Update to the latest stable version
+  google_maps_flutter_web: ^0.5.10    # Update to the latest stable version
+  location: ^7.0.1
+  geolocator: ^13.0.2
+  url_launcher: ^6.3.0
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  http: ^0.13.6
+  shared_preferences: ^2.3.3
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/logo.png
+    - assets/A.png
+    - assets/A1.png
+    - assets/B.png
+    - assets/B1.png
+    - assets/C.png
+    - assets/C1.png
+    - assets/CE.png
+    - assets/D.png
+    - assets/D1.png
+    - assets/DE.png
+    - assets/G.png
+    - assets/G1.png
+    - assets/J.png
+
+  uses-material-design: true
